@@ -33,6 +33,17 @@ p {
   background-color: #222222;
 }
 
+.section-conteudo {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
 .btn {
   background-color: #1b6de0;
   padding: 1.5rem 3rem;
@@ -114,4 +125,66 @@ p {
 .social-links {
   display: flex;
   gap: 20px;
+}
+
+/* =========== PÁGINA APRENDIZADOS =========== */
+
+/* Depoimento */
+.depoimento-titulo {
+  font-family: 'PT Serif', serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.depoimento-titulo::after,
+.depoimento-titulo::before {
+  content: '';
+  display: inline-block;
+  width: 45px;
+  height: 10px;
+  background-color: #1b6de0;
+}
+
+.depoimentos-grid {
+  display: grid;
+  max-width: 112rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-content: center;
+  justify-content: center;
+}
+
+.depoimento {
+  max-width: 54rem;
+  border-radius: 12px;
+  padding: 3rem;
+
+  display: grid;
+  grid-template-columns: 108px 1fr;
+  align-items: center;
+  gap: 20px;
+  row-gap: 10px;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.depoimento-imagem {
+  grid-row: 1 / span 2;
+}
+
+.depoimento-autor {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1b6de0;
+}
+
+.depoimento-texto {
+  grid-column: 2;
+  font-size: 20px;
+  color: #ffffff;
 }
