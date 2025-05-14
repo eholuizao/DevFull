@@ -188,3 +188,15 @@ p {
   font-size: 20px;
   color: #ffffff;
 }
+
+/* =========== PÁGINA ORÇAMENTO =========== */
+
+#area-section {
+  position: absolute;
+  width: 1440px;
+  height: 1684px;
+  left: -1px;
+  top: 130px;
+
+  background: #222222;
+}
