@@ -220,7 +220,7 @@ p {
 .cabecalho {
   font-family: PT Serif;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 40px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
@@ -254,6 +254,52 @@ p {
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
+}
+
+.formulario-orcamento {
+  width: 771px;
+  height: 1032px;
+  left: 334px;
+  top: 602px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  vertical-align: middle;
+  color: #ffffff;
+  background: #151515;
+  border-radius: 8px;
+}
+
+#nome_completo,
+#email,
+#contato,
+#assunto {
+  width: 651px;
+  height: 70px;
+  left: 394px;
+  top: 720px;
+  margin-top: 15px;
+
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+#mensagem {
+  width: 651px;
+  height: 244px;
+  left: 394px;
+  top: 1220px;
+  margin-top: 15px;
+
+  background: #ffffff;
+  border-radius: 8px;
 }
 
 body {
