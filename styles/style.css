@@ -95,7 +95,7 @@ p {
 }
 
 main {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Hero */
@@ -121,7 +121,7 @@ main {
   line-height: 60px;
 }
 
-.hero-wrapper img{
+.hero-wrapper img {
   width: 36rem;
   height: 36rem;
 
@@ -315,7 +315,7 @@ main {
 
 /* PROJETOS */
 .secao-titulo {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 64px;
   font-weight: bold;
   color: #ffffff;
@@ -326,7 +326,7 @@ main {
 
 .secao-titulo::before,
 .secao-titulo::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 45px;
   height: 10px;
@@ -356,13 +356,13 @@ main {
 .projeto-titulo {
   color: #1b6de0;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .projeto-descricao {
   color: #ffffff;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .tecnologias {
   display: flex;
@@ -370,14 +370,14 @@ main {
   margin-top: 100px;
 }
 .projeto img {
-  width: 500px;  
+  width: 500px;
   height: 255px;
   object-fit: cover;
   border-radius: 20px;
   border: 8px solid #1b6de0;
   box-sizing: border-box;
   display: block;
-  margin: 0;  
+  margin: 0;
 }
 .tag-tecnologia {
   background-color: #2b2b2b;
@@ -385,15 +385,15 @@ main {
   font-size: 14px;
   padding: 6px 12px;
   border-radius: 6px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* COMENTÁRIOS */
 .comentarios-subtitulo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-size: 32px;
-  text-align: center; 
+  text-align: center;
   line-height: 1.5;
 }
 
@@ -413,7 +413,7 @@ main {
   font-size: 16px;
   border: none;
   border-radius: 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #ffffff;
 }
@@ -438,19 +438,19 @@ main {
   transition: background 0.3s;
 }
 .icone-botao {
-  width: 24px;   
+  width: 24px;
   height: 24px;
   margin-left: 6px;
   vertical-align: middle;
 }
 .formulario-comentario label {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 28px;
   font-weight: bold;
 }
 .formulario-comentario textarea {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 /* =========== PÁGINA ORÇAMENTO =========== */
@@ -610,3 +610,91 @@ body {
 }
 
 /* =========== SEÇÃO HISTÓRICO =========== */
+
+.historico-section {
+  max-width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 clamp(15px, 5vw, 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  background: #151515;
+}
+
+.box-historico {
+  width: 313px;
+  height: 142px;
+  left: 563px;
+  top: 2204px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 30px;
+  gap: 10px;
+
+  background: #222222;
+  border-radius: 12px;
+}
+
+.cabecalho-historico {
+  font-family: PT Serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.cabecalho-conteudo-historico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+
+  font-size: 34px;
+}
+
+.titulo-box-historico {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #1b6de0;
+}
+
+.texto-box-historico {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.periodo-box-historico {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #a9a8a8;
+}
