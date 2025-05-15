@@ -84,7 +84,7 @@ p {
 
 .header-nav-list a:link,
 .header-nav-list a:visited {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   transition: color 0.15s;
 }
@@ -95,7 +95,7 @@ p {
 }
 
 main {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Hero */
@@ -159,7 +159,7 @@ main {
 }
 
 .introduction-wrapper h1 {
-  font-family: "PT-Serif", serif;
+  font-family: 'PT-Serif', serif;
   font-size: 6.4rem;
 }
 
@@ -211,7 +211,7 @@ main {
 
 /* Footer */
 .footer-conteudo {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
 
   display: grid;
@@ -255,7 +255,7 @@ main {
 
 /* Depoimento */
 .depoimento-titulo {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-size: 64px;
   font-weight: bold;
   color: #ffffff;
@@ -267,7 +267,7 @@ main {
 
 .depoimento-titulo::after,
 .depoimento-titulo::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 45px;
   height: 10px;
@@ -294,7 +294,7 @@ main {
   gap: 20px;
   row-gap: 10px;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .depoimento-imagem {
@@ -315,7 +315,7 @@ main {
 
 /* PROJETOS */
 .secao-titulo {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-size: 64px;
   font-weight: bold;
   color: #ffffff;
@@ -326,7 +326,7 @@ main {
 
 .secao-titulo::before,
 .secao-titulo::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 45px;
   height: 10px;
@@ -356,13 +356,13 @@ main {
 .projeto-titulo {
   color: #1b6de0;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .projeto-descricao {
   color: #ffffff;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .tecnologias {
   display: flex;
@@ -385,12 +385,12 @@ main {
   font-size: 14px;
   padding: 6px 12px;
   border-radius: 6px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* COMENTÁRIOS */
 .comentarios-subtitulo {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 32px;
   text-align: center;
@@ -413,7 +413,7 @@ main {
   font-size: 16px;
   border: none;
   border-radius: 8px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #ffffff;
 }
@@ -445,7 +445,7 @@ main {
 }
 .formulario-comentario label {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 28px;
   font-weight: bold;
 }
@@ -612,15 +612,10 @@ body {
 /* =========== SEÇÃO HISTÓRICO =========== */
 
 .historico-section {
-  max-width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  padding: 0 clamp(15px, 5vw, 30px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
 
   background: #151515;
 }
@@ -628,12 +623,9 @@ body {
 .box-historico {
   width: 313px;
   height: 142px;
-  left: 563px;
-  top: 2204px;
-  margin: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   padding-left: 30px;
   gap: 10px;
@@ -642,17 +634,16 @@ body {
   border-radius: 12px;
 }
 
+.corpo-historico .box-historico:last-child {
+  margin-bottom: 0;
+}
+
 .cabecalho-historico {
   font-family: PT Serif;
   font-weight: 700;
   font-size: 44px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
   color: #ffffff;
   display: flex;
-  flex-direction: row;
   gap: 30px;
   align-items: center;
 }
@@ -661,8 +652,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 50px;
+  gap: 80px;
   padding-top: 18rem;
   padding-bottom: 18rem;
 
@@ -670,31 +660,24 @@ body {
 }
 
 .titulo-box-historico {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
 
   color: #1b6de0;
 }
 
 .texto-box-historico {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Roboto';
   font-size: 20px;
-  line-height: 23px;
 
   color: #ffffff;
 }
 
 .periodo-box-historico {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
 
   color: #a9a8a8;
 }
