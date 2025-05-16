@@ -25,6 +25,10 @@ p {
   color: #ffffff;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Utilitários */
 .bg-black {
   background-color: #151515;
@@ -212,7 +216,7 @@ main {
 
 /* Interesses */
 .interesses-titulo {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-size: 64px;
   font-weight: bold;
   color: #ffffff;
@@ -224,7 +228,7 @@ main {
 
 .interesses-titulo::after,
 .interesses-titulo::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 45px;
   height: 10px;
@@ -296,7 +300,7 @@ main {
 
 /* Habilidades */
 .habilidades-titulo {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-size: 64px;
   font-weight: bold;
   color: #ffffff;
@@ -308,7 +312,7 @@ main {
 
 .habilidades-titulo::after,
 .habilidades-titulo::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 45px;
   height: 10px;
@@ -324,7 +328,7 @@ main {
   justify-content: center;
 }
 
-label{
+label {
   color: rgb(248, 248, 248);
 }
 
@@ -342,8 +346,8 @@ label{
 
   gap: 50px;
   row-gap: 100px;
- 
-  font-family: "Roboto", sans-serif;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 .container-progresso {
