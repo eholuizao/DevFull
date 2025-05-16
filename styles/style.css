@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+input,
+textarea {
+  font-size: 32px;
+  color: #151515;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -544,12 +550,10 @@ label {
 .formulario-comentario input,
 .formulario-comentario textarea {
   padding: 1.5rem;
-  font-size: 16px;
   border: none;
   border-radius: 8px;
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  color: #ffffff;
 }
 .campo-formulario {
   display: flex;
