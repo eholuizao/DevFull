@@ -395,14 +395,15 @@ main {
   font-size: 32px;
   text-align: center;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .formulario-comentario {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 3rem;
-  max-width: 500px;
+  gap: 40px;
+  padding: 6rem;
+  max-width: 60rem;
   width: 100%;
   border-radius: 10px;
 }
@@ -420,12 +421,11 @@ main {
 .campo-formulario {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
 }
 .formulario-comentario .btn {
   background-color: #1b6de0;
   color: white;
-  padding: 1rem 2rem;
   font-size: 28px;
   border: none;
   border-radius: 8px;
